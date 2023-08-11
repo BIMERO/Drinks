@@ -2,7 +2,6 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { HiOutlineShoppingBag } from "react-icons/hi";
-import { setNavOpen } from "@/Store/Store";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
 export const Navbar = () => {
