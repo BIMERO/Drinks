@@ -1,0 +1,32 @@
+[
+    {
+    "id": 1,
+    "cover": "/images/kind-1.jpg.png",
+    "name": "Brandy"
+  },
+  {
+    "id": 2,
+    "cover": "/images/kind-2.jpg.png",
+    "name": "Gin"
+  },
+  {
+    "id": 3,
+    "cover": "/images/kind-3.jpg.png",
+    "name": "Rum"
+  },
+  {
+    "id": 4,
+    "cover": "/images/kind-4.jpg.png",
+    "name": "Tequila"
+  },
+  {
+    "id": 5,
+    "cover": "/images/kind-5.jpg.png",
+    "name": "Vodka"
+  },
+  {
+    "id": 6,
+    "cover": "/images/kind-6.jpg.png",
+    "name": "Whiskey"
+  }
+]

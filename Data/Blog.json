@@ -1,0 +1,45 @@
+[
+     {
+    "id": 1,
+    "cover": "/images/image1.jpg",
+    "date": "23 April 2023",
+    "header": "The Recipe from a Winemaker’s Restaurent",
+    "para": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+  },
+  {
+    "id": 2,
+    "cover": "/images/image8.jpg",
+    "date": "23 April 2023",
+    "header": "The Recipe from a Winemaker’s Restaurent",
+    "para": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+  },
+  {
+    "id": 3,
+    "cover": "/images/image5.jpg",
+    "date": "23 April 2023",
+    "header": "The Recipe from a Winemaker’s Restaurent",
+    "para": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+  },
+  {
+    "id": 4,
+    "cover": "/images/image4.jpg",
+    "date": "23 April 2023",
+    "header": "The Recipe from a Winemaker’s Restaurent",
+    "para": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+    
+  },
+  {
+    "id": 5,
+    "cover": "/images/image6.jpg",
+    "date": "23 April 2023",
+    "header": "The Recipe from a Winemaker’s Restaurent",
+    "para": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+  },
+  {
+    "id": 6,
+    "cover": "/images/image7.jpg",
+    "date": "23 April 2023",
+    "header": "The Recipe from a Winemaker’s Restaurent",
+    "para": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+  }
+]

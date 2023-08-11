@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "My Account"
+    },
+    {
+        "id": 2,
+        "name": "Register"
+    },
+    {
+        "id": 3,
+        "name": "Log In"
+    },
+    {
+        "id": 4,
+        "name": "My Order"
+    },
+    {
+        "id": 5,
+        "name": "About Us"
+    },
+    {
+        "id": 6,
+        "name": "Catalog"
+    },
+    {
+        "id": 7,
+        "name": "Contact Us"
+    },
+    {
+        "id": 8,
+        "name": "Terms & Conditions"
+    },
+    {
+        "id": 9,
+        "name": "New User"
+    },
+    {
+        "id": 10,
+        "name": "Help Center"
+    },
+    {
+        "id": 11,
+        "name": "Report Spam"
+    },
+    {
+        "id": 12,
+        "name": "Faq's"
+    }
+]

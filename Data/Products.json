@@ -1,0 +1,87 @@
+ [
+  {
+    "id": 1,
+    "cover": "/images/prod-1.jpg.png",
+    "spec": "Bacardi 151",
+    "old_price": "$69.00",
+    "price": "$49.00",
+    "name": "Brandy"
+  },
+  {
+    "id": 2,
+    "cover": "/images/prod-2.jpg.png",
+    "spec": "Jim beam kentucky straight",
+    "price": "$69.00",
+    "name": "Gin"
+  },
+  {
+    "id": 3,
+    "cover": "/images/prod-3.jpg.png",
+    "spec": "Citadelle",
+    "price": "$69.00",
+    "name": "Rum"
+  },
+  {
+    "id": 4,
+    "cover": "/images/prod-4.jpg.png",
+    "spec": "the glenlivet",
+    "price": "$69.00",
+    "name": "Rum"
+  },
+  {
+    "id": 5,
+    "cover": "/images/prod-5.jpg.png",
+    "spec": "black label",
+    "price": "$69.00",
+    "name": "whiskey"
+  },
+  {
+    "id": 6,
+    "cover": "/images/prod-6.jpg.png",
+    "spec": "macallan",
+    "price": "$69.00",
+    "name": "tequila"
+  },
+  {
+    "id": 7,
+    "cover": "/images/prod-7.jpg.png",
+    "spec": "old monk",
+    "price": "$69.00",
+    "name": "vodka"
+  },
+  {
+    "id": 8,
+    "cover": "/images/prod-8.jpg.png",
+    "spec": "jameson irish whiskey",
+    "price": "$69.00",
+    "name": "Whiskey"
+  },
+  {
+    "id": 9,
+    "cover": "/images/prod-9.jpg.png",
+    "spec": "screwball",
+    "price": "$69.00",
+    "name": "Whiskey"
+  },
+  {
+    "id": 10,
+    "cover": "/images/prod-10.jpg.png",
+    "spec": "screwball",
+    "price": "$69.00",
+    "name": "Whiskey"
+  },
+  {
+    "id": 11,
+    "cover": "/images/prod-11.jpg.png",
+    "spec": "mcClelland's",
+    "price": "$69.00",
+    "name": "Whiskey"
+  },
+  {
+    "id": 12,
+    "cover": "/images/prod-12.jpg.png",
+    "spec": "Plantation",
+    "price": "$69.00",
+    "name": "Whiskey"
+  }
+]

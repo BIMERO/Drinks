@@ -1,20 +1,51 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./content/**/*.{js,ts,jsx,tsx,mdx}",
+    "./layout/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        "hero-pattern": "url('/images/bg_2.jpg.png')",
+        "history-pattern": "url('/images/about.jpg')",
+      },
+
+      colors: {
+        brand_primary: {
+          50: "#b7472a",
+          100: "#ab4227",
+          150: "#a23f25",
+        },
+
+        brand_secondary: {
+          50: "#f5f4f0",
+          100: "#dee2e6",
+          150: "#343a40",
+          200: "#cccccc",
+          250: "#1a1a1a",
+          300: "#212529",
+          350: "#bbb",
+        },
+
+        brand_gray: {
+          50: "rgba(255, 255, 255, 0.5)",
+          100: "rgba(255, 255, 255, 0.2)",
+          150: "rgba(255, 255, 255, 0.8)",
+          200: "rgba(0, 0, 0, 0.1)",
+          250: "rgba(0, 0, 0, 0.5)",
+        },
+      },
+
+      gridTemplateColumns: {
+        product: "1fr 300px",
       },
     },
   },
   plugins: [],
-}
-export default config
+};
+export default config;
