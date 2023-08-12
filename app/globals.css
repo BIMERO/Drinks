@@ -84,12 +84,12 @@ li.product:hover ul.drop {
   display: block;
 }
 
-.active {
+.ractive {
   background-color: #b7472a;
   color: #fff;
 }
 
-.active::after {
+.ractive::after {
   position: absolute;
   bottom: -10px;
   left: 0;

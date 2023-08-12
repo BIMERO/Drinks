@@ -19,7 +19,7 @@ export const Tabs: React.FC<TabsProps> = ({ tabs }) => {
             key={index}
             onClick={() => setActiveTab(index)}
             className={`py-5 px-8 text-2xl text-black font-bold bg-brand_gray-250 relative ${
-              index === activeTab ? "active" : ""
+              index === activeTab ? "ractive" : ""
             }`}
           >
             {tab.label}

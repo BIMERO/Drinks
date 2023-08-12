@@ -38,13 +38,13 @@ export default function Page() {
             <div className="grid mb-20 gap-6 md:grid-cols-3">
               {products.map((item) => {
                 return (
-                  <div key={item.id} className="text-center px-4 m-auto">
+                  <div key={item.id} className="text-center px-4">
                     <Image
                       src={item.cover}
                       alt="product_drink"
                       width={255}
                       height={350}
-                      className=" rounded object-cover mb-5 w-full"
+                      className=" rounded object-cover mb-5 h-72 w-full"
                     />
                     <p className="italic text-brand_primary-50">
                       {" "}
