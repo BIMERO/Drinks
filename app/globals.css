@@ -84,11 +84,35 @@ li.product:hover ul.drop {
   display: block;
 }
 
+.active {
+  background-color: #b7472a;
+  color: #fff;
+}
+
+.active::after {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  width: 20px;
+  background-color: #b7472a;
+  transform: rotate(45deg);
+  content: "";
+  height: 20px;
+  margin: 0 auto;
+  border-style: solid;
+}
+
 /* @media screen and (max-width: 640px) {
   .contain {
     margin: auto;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+} */
+
+/* {
+  @media (min-width: 996px) {
   }
 } */
 

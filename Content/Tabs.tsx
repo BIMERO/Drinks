@@ -12,14 +12,14 @@ export const Tabs: React.FC<TabsProps> = ({ tabs }) => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <div>
-      <div className="flex border-b">
+    <div className="contain py-24 px-4">
+      <div className="flex flex-col gap-4 lg:flex-row">
         {tabs.map((tab, index) => (
           <button
             key={index}
             onClick={() => setActiveTab(index)}
-            className={`py-2 px-4 ${
-              index === activeTab ? "border-b-2 border-blue-500" : ""
+            className={`py-5 px-8 text-2xl text-black font-bold bg-brand_gray-250 relative ${
+              index === activeTab ? "active" : ""
             }`}
           >
             {tab.label}

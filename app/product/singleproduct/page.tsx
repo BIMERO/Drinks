@@ -9,14 +9,41 @@ import { Tabs } from "@/Content/Tabs";
 
 const tabs = [
   {
-    label: "Tab 1",
-    content: <p>Content of Tab 1</p>,
+    label: "Description",
+    content: (
+      <div className=" bg-brand_secondary-50 mt-4 p-4">
+        <h2 className=" text-3xl mb-6">Bacardi 151 Degree</h2>
+        <p className="mb-4">
+          On her way she met a copy. The copy warned the Little Blind Text, that
+          where it came from it would have been rewritten a thousand times and
+          everything that was left from its origin would be the word and and the
+          Little Blind Text should turn around and return to its own, safe
+          country. But nothing the copy said could convince her and so it didn’t
+          take long until a few insidious Copy Writers ambushed her, made her
+          drunk with Longe and Parole and dragged her into their agency, where
+          they abused her for their.
+        </p>
+      </div>
+    ),
   },
   {
-    label: "Tab 2",
-    content: <p>Content of Tab 2</p>,
+    label: "Manufacturer",
+    content: (
+      <div className=" bg-brand_secondary-50 mt-4 p-4">
+        <h2 className=" text-3xl mb-6">Manufactured By Liquor Store</h2>
+        <p className="mb-4">
+          On her way she met a copy. The copy warned the Little Blind Text, that
+          where it came from it would have been rewritten a thousand times and
+          everything that was left from its origin would be the word and and the
+          Little Blind Text should turn around and return to its own, safe
+          country. But nothing the copy said could convince her and so it didn’t
+          take long until a few insidious Copy Writers ambushed her, made her
+          drunk with Longe and Parole and dragged her into their agency, where
+          they abused her for their.
+        </p>
+      </div>
+    ),
   },
-  // Add more tabs as needed
 ];
 export default function Page() {
   const [count, setCount] = useState(0);
@@ -42,7 +69,7 @@ export default function Page() {
         spec="PRODUCT SINGLE"
       />
 
-      <section className="contain py-24 px-5 gap-8 lg:flex">
+      <section className="contain pt-24 px-5 gap-8 lg:flex">
         <Image
           src="/images/prod-1.jpg.png"
           width={540}
