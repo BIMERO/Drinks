@@ -6,6 +6,7 @@ import BrandButton from "@/Components/BrandButton";
 import { RiStarSFill } from "react-icons/ri";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import { Tabs } from "@/Content/Tabs";
+import Review from "@/Content/Review";
 
 const tabs = [
   {
@@ -43,6 +44,10 @@ const tabs = [
         </p>
       </div>
     ),
+  },
+  {
+    label: "Reviews",
+    content: <Review />,
   },
 ];
 export default function Page() {
@@ -140,6 +145,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+
       <Tabs tabs={tabs} />
     </main>
   );

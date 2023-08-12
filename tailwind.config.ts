@@ -30,6 +30,7 @@ const config: Config = {
           250: "#1a1a1a",
           300: "#212529",
           350: "#bbb",
+          400: "#b3b3b3",
         },
 
         brand_gray: {

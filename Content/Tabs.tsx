@@ -12,7 +12,7 @@ export const Tabs: React.FC<TabsProps> = ({ tabs }) => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <div className="contain py-24 px-4">
+    <section className="contain py-24 px-4">
       <div className="flex flex-col gap-4 lg:flex-row">
         {tabs.map((tab, index) => (
           <button
@@ -27,7 +27,6 @@ export const Tabs: React.FC<TabsProps> = ({ tabs }) => {
         ))}
       </div>
       <div className="mt-4">{tabs[activeTab].content}</div>
-      );
-    </div>
+    </section>
   );
 };
