@@ -20,10 +20,6 @@ export const Navbar = () => {
     };
   }, []);
 
-  //  const handleMenuButtonClick = () => {
-  //    dispatch(setNavOpen(!isNavOpen));
-  //  };
-
   return (
     <nav
       className={`flex fixed w-full top-0 z-20  py-5 px-4 transition duration-500 ease-out ${
@@ -88,7 +84,10 @@ export const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/" className="hover:text-brand_primary-50">
+                  <Link
+                    href="/product/cart"
+                    className="hover:text-brand_primary-50"
+                  >
                     Cart
                   </Link>
                 </li>
@@ -127,7 +126,6 @@ export const Navbar = () => {
           className={`lg:hidden ${
             isScrolled ? "text-brand_gray-250" : "text-brand_gray-50"
           }`}
-          // onClick={handleMenuButtonClick}
         >
           MENU
         </button>
